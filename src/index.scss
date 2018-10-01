@@ -1,0 +1,25 @@
+$bg-color: #1f1f2e;
+$apl-bg: url("https://www.apple.com/v/iphone-xr/b/images/overview/copy_texture_1_large.jpg");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $bg-color;
+
+  .bg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .texture {
+    background-image: $apl-bg;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-clip: text; // freaking cutting edge css
+    -webkit-background-clip: text;
+    font-size: 100px;
+    font-family: arial;
+  }
+}
