@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1f1f2e; }
+  body .bg {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  body .texture {
+    background-image: url("https://www.apple.com/v/iphone-xr/b/images/overview/copy_texture_1_large.jpg");
+    background-repeat: no-repeat;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    font-family: arial; }
+
+/*# sourceMappingURL=index.css.map */
